@@ -7,19 +7,32 @@
 
     <title>Moon AR</title>
     <style>
-        model-viewer{
+        div{
+            width: 300px;
+            height: fit-content;
             position: absolute;
-            top: 30%;
+            top: 50%;
             left: 50%;
             transform: translate(-50%,-50%)
-        }
-        body{
-            background-color: black;
         }
 
     </style>
 </head>
 <body>
-    <model-viewer auto-rotate camera-controls ar ar-modes="webxr"id='moon' ios-src="moon.usdz" src="moon.glb" alt="A 3D model" auto-rotate camera-controls></model-viewer>
+    <a href='moon.html'>
+        <h1>Moon 3d</h1>
+    </a>
+    <a href='satellite.html'>
+        <h1>Satellite 3d</h1>
+    </a>
+    <a href='asteroid.html'>
+        <h1>Asteroid 3d</h1>
+    </a>
+    <a href='earth.html'>
+        <h1>Earth 3d</h1>
+    </a>
+    <a href='solar system.html'>
+        <h1>Solar System 3d</h1>
+    </a>
 </body>
 </html>
