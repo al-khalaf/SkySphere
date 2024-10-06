@@ -7,6 +7,11 @@
 
     <title>Moon AR</title>
     <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: Arial}
         model-viewer{
             position: absolute;
             top: 30%;
@@ -16,10 +21,15 @@
         body{
             background-color: black;
         }
+        h1{
+            color: white;
+            text-align: center;
+        }
 
     </style>
 </head>
 <body>
     <model-viewer auto-rotate camera-controls ar ar-modes="webxr"id='moon' ios-src="moon.usdz" src="moon.glb" alt="A 3D model" auto-rotate camera-controls></model-viewer>
+    <h1>Click on the Icon at the Bottom Right to Open in Augmented Reality</h1>
 </body>
 </html>
